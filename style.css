@@ -1,0 +1,303 @@
+body{
+	background-color:#000000;
+	margin:auto; 
+}
+
+.top .logo img{
+	width:100px;
+	height:100px;
+	position:relative;
+	margin:auto 50px;
+}
+.top .nav ul{
+    list-style-type: none;
+    margin:-70px 200px;
+    color:#ffffff;
+   
+}
+.top .nav ul li{
+	display:inline;
+	
+}
+.top .nav ul li a{
+	text-align:center;
+	font-family: 'Roboto Slab', serif;
+	font-weight:bold;
+	
+	font-size:20px;
+	padding: 14px 16px;
+	text-decoration:none;
+	color:#ffffff;
+}
+.top .nav ul li a:hover {
+  background-color: #0099ff;
+
+}
+h2{
+	margin:150px;
+	color:#ff3333;
+}
+.background{
+	margin:100px auto;
+	width:100%;
+	height:100% ;
+	background-image:url(tires-5-lines-black-background_37416-40.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	animation-name:ani;
+	animation-duration: 5s;
+	animation-iteration-count:infinite;
+
+}
+@keyframes ani{
+	0%{background-image:url(tires-5-lines-black-background_37416-40.jpg);}
+	25%{background-image:url(tires-5-lines-black-background_3741.jpg);}
+	50%{background-image:url(pngtree-new-tires-promotion-season-black-light-background-image_186712.jpg);}
+	75%{background-image:url(car-wheels-black-background_185991-184.jpg);}
+	100%{background-image:url(1.jpg);}
+}
+h4{
+	text-align: center;
+}
+.content{
+	width:50%;
+	margin:auto;
+	
+}
+.content .home{
+    color:#ff3333;
+	
+		
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:35px;
+	animation-name:pic;
+	animation-duration: 5s;
+}
+@keyframes pic{
+		0%{margin-left:50px; }
+		10%{margin-right:100px; }
+		20%{margin-left:150px; }
+		30%{margin-right:200px; }
+		40%{margin-left:250px; }
+		50%{margin-right:300px; }
+		60%{margin-left:250px; }
+		70%{margin-right:200px; }
+		80%{margin-left:150px; }
+		90%{margin-right:100px; }
+		100%{margin-left:50px; }
+}
+.content .main{
+	color:white;
+	font-family: 'Della Respira', serif;
+	font-size:20px;
+	text-indent:2em;
+	animation-name:anim;
+	animation-duration: 5s;
+	animation-iteration-count:1;
+}
+@keyframes anim{
+	0%{transform:translateX(-750px);}
+	100%{transform:translateX();}
+}
+
+
+
+.content .manufacture{
+    color:#ff3333;
+
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:35px;
+	animation-name:pic;
+	animation-duration: 5s;
+}
+.content .manufact{
+  	color:white;
+  	font-family: 'Della Respira', serif;
+	font-size:20px;
+  	text-align:center;
+	text-indent:2em;
+	animation-name:animate;
+	animation-duration:3s;
+	animation-iteration-count:1;
+	
+}
+@keyframes animate{
+	0%{transform:translate(20px,200px);}
+	50%{transform:translate(10px,100px);}
+	100%{transform:translate();}
+}
+.content .process_list{
+	color:white;
+  	font-family: 'Della Respira', serif;
+	font-size:20px;
+	text-indent:2em;
+	animation-name:animate;
+	animation-duration:3s;
+	animation-iteration-count:1;
+}
+
+.content .tyres{
+    color:#ff3333;
+    font-family: 'PT Sans Narrow', sans-serif;
+	font-size:35px;
+	
+	
+	height:auto;
+	animation-name:pic;
+	animation-duration: 5s;
+}
+.content .tyre{
+	color:white;
+	font-family: 'Della Respira', serif;
+	font-size:20px;
+	text-indent:2em;
+	animation-name:anima;
+	animation-duration: 5s;
+	animation-iteration-count:1;
+}
+@keyframes anima{
+	0%{transform:translateX(750px);}
+	100%{transform:translateX();}
+}
+
+
+.content .tyre a{
+	text-decoration: none;
+	color:#ff3333;
+	text-align:right;
+}
+.content .gallery{
+	color:#ff3333;
+    font-family: 'PT Sans Narrow', sans-serif;
+	font-size:35px;
+	
+	padding-bottom:150px;
+	height:auto;
+	animation-name:pic;
+	animation-duration: 5s;
+}
+
+.content .gall{
+	width:50%;
+	height:50%;
+	position:absolute;
+	background-image: url(two-wheeler.jpg);
+	background-size:100% 100%;
+	left:50%;
+
+	transform:translate(-50%, -50%);
+
+	animation-name:galle;
+	animation-duration:5s;
+	animation-delay:2s;
+	animation-iteration-count:infinite;
+	box-shadow:1px 2px 10px 5px white;
+}
+@keyframes galle{
+     0%{background-image: url(two-wheeler.jpg);}
+     20%{background-image: url(four-wheeler);}
+     40%{background-image: url(images.jpg);}
+     60%{background-image: url(Top-Eight-Car-Tyre.png);}
+     80%{background-image: url(bridgestone-enliten.jpg);}
+     100%{background-image: url(car-wheels-black-background_185991-184.jpg);}
+}
+.bottom{
+	background-color:#1a1a1a; 
+}
+
+.bottom .tyr{
+	margin:auto 5px;
+    width: 50%;
+    
+    padding: 10px;
+	color:#ffffff;
+}
+.bottom .tyr h3{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	font-size:40px; 
+
+}
+.bottom .tyr ul{
+	font-family: 'Rubik', sans-serif;
+	font-size:20px;
+	list-style-type: none;
+	text-indent: 5em;
+	animation-name:animate;
+	animation-duration:5s;
+	animation-iteration-count:1;
+}
+.bottom .tyr ul li{
+	text-indent:5em;
+	}
+.bottom .tyr ul li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.bottom .tyr ul li a:hover{
+	color:#99e6ff;
+}
+.bottom .typ h3{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	font-size:40px;
+
+}
+.bottom .typ{
+	margin:-280px 200px;
+    width: 50%;
+    
+    padding: 10px;
+	color:#ffffff;
+	justify-content:center;
+}
+.bottom .typ ul{
+	font-family: 'Rubik', sans-serif;
+	font-size:20px;
+	list-style-type: none;
+	text-indent: 5em;
+	animation-name:animate;
+	animation-duration:5s;
+	animation-iteration-count:1;
+}
+.bottom .typ ul li{
+	text-indent:5em;
+	}
+.bottom .typ ul li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.bottom .typ ul li a:hover{
+	color:#99e6ff;
+}
+
+.bottom .communicate{
+	
+	margin:350px 150px;
+    width: 50%;
+    border: 5px;
+    padding: 10px;
+	color:#ffffff;
+	animation-name:an;
+	animation-duration: 5s;
+	animation-iteration-count:1;
+	
+}
+@keyframes an{
+	0%{transform:translateY(750px);}
+	100%{transform: translateY();}
+}
+.bottom .communicate h3{
+	
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	font-size:40px; 
+}
+.bottom .communicate img{
+	width:30px;
+}
+.bottom .communicate a{
+	text-decoration:none;
+	width:25px;
+	color:white;
+}
